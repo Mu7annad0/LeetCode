@@ -11,5 +11,3 @@ def average(self, salary: List[int]) -> float:
     salary.remove(max(salary))
     return sum(salary) / len(salary)
 
-
-
